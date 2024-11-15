@@ -39,6 +39,11 @@
   }
   
   /* Mobile view */
+  @media(max-width:480){
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+  }
   @media (max-width: 768px) {
     .hamburger {
       display: block;
@@ -84,6 +89,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     gap:1rem;
+    padding: 1rem;
 }
 .image{
     background-color: #f7f7f7;
