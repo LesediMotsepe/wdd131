@@ -78,7 +78,7 @@ const temples = [
   
 ];
 const templesContainer = document.querySelector(".temples-container");
-const navigationMenu = document.querySelector(".navigation-menu");
+const navigationMenu = document.querySelector(".nav-menu");
 
 navigationMenu.addEventListener("click", (e) => {
   if (e.target.tagName === "LI") {
