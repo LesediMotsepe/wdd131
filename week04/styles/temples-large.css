@@ -39,7 +39,7 @@
     color: white;
   }
   
-  /* Mobile view 
+   
   @media (max-width: 768px) {
     .hamburger {
       display: block;
@@ -68,7 +68,7 @@
     .nav-menu a {
       color: #333;
     }
-  }*/
+  }
   
 main{
     max-width: 800px;
@@ -94,7 +94,7 @@ main{
   }
   .image img{
       width: 100%;
-      height: auto;
+      height: 100%;
       border-radius: 10px 10px 0 0;
   }
   

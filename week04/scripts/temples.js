@@ -148,7 +148,7 @@ function renderTemples(temples) {
 renderTemples(temples);
 
 
-/* temples.forEach((temple) => {
+  temples.forEach((temple) => {
   const templeCard = document.createElement("div");
   templeCard.classList.add("temple-card");
 
@@ -183,4 +183,4 @@ renderTemples(temples);
   templesContainer.appendChild(templeCard);
   
   
-});*/
+});
