@@ -29,7 +29,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    max-width: 300;
+    max-width: 300px;
     padding: 20px;
     
   }
@@ -74,7 +74,7 @@ nav a:hover{
    grid-column: 3/3;
    background-size: cover;
    background-position: center;
-   align-content: right;
+  justify-content: flex-end; 
    display: flex;
   }
   .aboutMe{
