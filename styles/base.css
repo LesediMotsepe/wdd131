@@ -23,7 +23,7 @@ nav ul li a:hover {
   header {
     padding: 2rem;
     grid-column: 1 / 4;
-    background-color: grey;
+    background-color: black;
     text-align: center;
   }
   main{
