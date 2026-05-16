@@ -6,18 +6,26 @@ nav {
     justify-content: space-around;
     
   }
-nav a{
-      color:white;
-      padding: 0.5rem;
-      display: block;
-      text-decoration: none;
-  }
-nav a:hover{
-  color: black;
-  background-color: white;
+
+  nav ul {
+  display: flex;
+  justify-content: center;  /* centers the links. Use space-evenly or space-between if you want them spread out */
+  gap: 2rem;                /* space between links */
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: #333;   /* change to match your site */
 }
 
-  
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
   
   header {
     padding: 2rem;
