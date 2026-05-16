@@ -26,9 +26,9 @@ nav ul li a:hover {
     background-color: black;
     text-align: center;
   }
-h3{
-  width: fit-content;
-  margin: 0 auto;
+.container {
+  display: flex;
+  justify-content: center; 
 }
   main{
     display: grid;
