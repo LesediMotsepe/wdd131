@@ -33,7 +33,7 @@ nav a:hover{
     padding: 20px;
     
   }
-  .card-grid {
+  .card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
